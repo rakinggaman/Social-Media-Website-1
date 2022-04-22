@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section .section-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1d1d1d;
+}
+
+.navbar .navbar-brand {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1d1d1d;
+}
+
+.navbar .navbar-brand span {
+  color: #faaa2e;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ffff;
+          text-decoration-color: #ffff;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #1d1d1d;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #faaa2e;
+}
+
+.footer {
+  background: #1d1d1d;
+  padding: 50px 0;
+}
+
+.footer .footer-brand {
+  font-size: 24px;
+  font-weight: 600;
+  color: #faaa2e;
+  text-decoration: none;
+}
+
+.footer .footer-brand span {
+  color: #ffff;
+}
+
+.footer .footer-text {
+  color: #ffff;
+}
+
+.footer .footer-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.footer .footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer-list li a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.btn-primary {
+  background-color: #ffff;
+  color: #1d1d1d;
+  border-radius: 100px;
+  border: 0;
+}
+
+.btn-primary:hover {
+  background-color: #1d1d1d;
+  color: #ffff;
+}
+
+.btn-second {
+  background-color: none;
+  color: #0c4db4;
+  border-radius: 100px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  border: 0;
+}
+
+.btn-second:hover {
+  background-color: #1d1d1d;
+  color: #ffff;
+}
+
+.btn-third {
+  background-color: #faaa2e;
+  color: #1d1d1d;
+  border-radius: 100px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  border: 0;
+}
+
+.btn-third:hover {
+  background-color: #ffff;
+  color: #1d1d1d;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #0c4db4;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.card {
+  background-color: #ffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 500px;
+  border: none;
+}
+
+.card:hover {
+  background-color: #0c4db4;
+  color: #ffff;
+}
+
+.card .card-body {
+  color: #1d1d1d;
+}
+
+.card .card-body:hover {
+  color: #ffff;
+}
+
+.card .card-body .card-price {
+  color: #0c4db4;
+}
+
+.card .card-body .card-price:hover {
+  color: #ffff;
+}
+
+.cards {
+  background-color: #ffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 550px;
+  border: none;
+}
+
+.cards .cards-body {
+  color: #1d1d1d;
+}
+
+.cards .cards-body .cards-price {
+  color: #0c4db4;
+}
+
+.cards .cards-body .cards-price:hover {
+  color: #faaa2e;
+}
+
+.cardx {
+  background-color: #ffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 550px;
+  border: none;
+}
+
+.cardx .cardx-body {
+  color: #1d1d1d;
+}
+
+.cardx .cardx-body .cardx-price {
+  color: #0c4db4;
+}
+
+.cardx .cardx-body .cardx-price:hover {
+  color: #faaa2e;
+}
+
+.hero {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #faaa2e), color-stop(50%, #ffff));
+  background: linear-gradient(90deg, #faaa2e 50%, #ffff 50%);
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    background: -webkit-gradient(linear, left top, right top, to(#faaa2e));
+    background: linear-gradient(90deg, #faaa2e 100%);
+  }
+}
+
+.hero .hero-img {
+  width: 660px;
+  height: 547px;
+}
+
+@media screen and (max-width: 1300px) {
+  .hero .hero-img {
+    width: 460px;
+    height: 347px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero .hero-img {
+    width: 360px;
+    height: 247px;
+  }
+}
+
+.hero .hero-img-two {
+  width: 406px;
+  height: 306px;
+}
+
+.portofilio {
+  background: #faaa2e;
+}
+/*# sourceMappingURL=style.css.map */

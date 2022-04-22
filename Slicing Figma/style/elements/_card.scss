@@ -1,0 +1,60 @@
+.card {
+    background-color: $white-color;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 500px;
+    border: none;
+    &:hover {
+        background-color: $blue-color;
+        color: $white-color;
+    }
+    .card-body {
+        color: $black-color;
+        &:hover {
+            color: $white-color;
+        }
+        .card-price {
+            color: $blue-color;
+            &:hover {
+                color: $white-color;
+            }
+        }
+    }
+}
+
+.cards {
+    background-color: $white-color;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 550px;
+    border: none;
+    .cards-body {
+        color: $black-color;
+        .cards-price {
+            color: $blue-color;
+            &:hover {
+                color: $orange-color;
+            }
+        }
+    }
+}
+
+.cardx {
+    background-color: $white-color;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 550px;
+    border: none;
+    .cardx-body {
+        color: $black-color;
+        .cardx-price {
+            color: $blue-color;
+            &:hover {
+                color: $orange-color;
+            }
+        }
+    }
+}

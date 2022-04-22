@@ -1,0 +1,24 @@
+.navbar {
+    .navbar-brand {
+        font-size: $heading-4-size;
+        font-weight: 600;
+        color: $black-color;
+        span {
+            color: $orange-color;
+            text-decoration: underline;
+            text-decoration-color: $white-color;
+        }
+    }
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: $black-color;
+                font-size: $body-3-size;
+                font-weight: 700;
+                &:hover {
+                    color: $orange-color;
+                }
+            }
+        }
+    }
+}

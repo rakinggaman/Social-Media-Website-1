@@ -1,0 +1,54 @@
+.btn-primary {
+    background-color: $white-color;
+    color: $black-color;
+    border-radius: 100px;
+    border: 0;
+    &:hover {
+        background-color: $black-color;
+        color: $white-color;
+    }
+}
+
+.btn-second {
+    background-color: none;
+    color: $blue-color;
+    border-radius: 100px;
+    text-decoration-line: underline;
+    border: 0;
+    &:hover {
+        background-color: $black-color;
+        color: $white-color;
+    }
+}
+
+.btn-third {
+    background-color: $orange-color;
+    color: $black-color;
+    border-radius: 100px;
+    text-decoration-line: none;
+    border: 0;
+    &:hover {
+        background-color: $white-color;
+        color: $black-color;
+    }
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: $blue-color;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
